@@ -1,0 +1,794 @@
+#TYPE Deserialized.Selected.System.Diagnostics.Eventing.Reader.EventLogRecord
+"Message","SubjectUserSid","SubjectUserName","SubjectDomainName","SubjectLogonId","NewProcessId","NewProcessName","TokenElevationType","ProcessId","CommandLine","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","ContainerLog","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties","PSComputerName","RunspaceId","PSShowComputerName"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xda8
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0xda8","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1052476","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4360","home-dc1.home.local",,"11/28/2016 11:16:43 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xbc4
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0xbc4","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1052457","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4360","home-dc1.home.local",,"11/28/2016 11:16:08 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xff0
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0xff0","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1052400","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","3456","home-dc1.home.local",,"11/28/2016 11:10:45 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x11a8
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x11a8","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1052344","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4716","home-dc1.home.local",,"11/28/2016 11:06:20 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x1740
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x1740","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1052315","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","2208","home-dc1.home.local",,"11/28/2016 11:04:50 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x10b8
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x10b8","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1052283","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","3456","home-dc1.home.local",,"11/28/2016 11:03:45 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xc04
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0xc04","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1052264","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","2824","home-dc1.home.local",,"11/28/2016 11:02:28 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xfc8
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0xfc8","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1052244","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","3328","home-dc1.home.local",,"11/28/2016 11:01:56 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x3c4
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x3c4","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1052214","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","5028","home-dc1.home.local",,"11/28/2016 11:00:47 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x1668
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x1668","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1052165","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","5716","home-dc1.home.local",,"11/28/2016 10:57:17 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x1520
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x1520","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1052146","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4360","home-dc1.home.local",,"11/28/2016 10:56:59 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xbfc
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0xbfc","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1052129","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","2824","home-dc1.home.local",,"11/28/2016 10:56:49 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x101c
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x101c","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1052075","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","3328","home-dc1.home.local",,"11/28/2016 10:53:06 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x14e8
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x14e8","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1052046","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","2208","home-dc1.home.local",,"11/28/2016 10:50:07 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x127c
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x127c","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1052026","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","2824","home-dc1.home.local",,"11/28/2016 10:49:53 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x83c
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x83c","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051995","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4220","home-dc1.home.local",,"11/28/2016 10:49:07 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x1458
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x1458","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051981","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","2824","home-dc1.home.local",,"11/28/2016 10:48:54 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x81c
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x81c","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051967","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4220","home-dc1.home.local",,"11/28/2016 10:48:39 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xaec
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0xaec","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051921","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","5716","home-dc1.home.local",,"11/28/2016 10:44:39 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xf20
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0xf20","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051906","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","3296","home-dc1.home.local",,"11/28/2016 10:44:23 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xa34
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0xa34","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051846","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","2208","home-dc1.home.local",,"11/28/2016 10:39:23 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x1230
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x1230","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051820","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","5716","home-dc1.home.local",,"11/28/2016 10:39:16 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x13c4
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x13c4","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051804","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","2416","home-dc1.home.local",,"11/28/2016 10:38:56 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x128
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x128","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051775","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4764","home-dc1.home.local",,"11/28/2016 10:36:46 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x568
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x568","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051757","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4764","home-dc1.home.local",,"11/28/2016 10:36:00 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xfac
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0xfac","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051742","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","3580","home-dc1.home.local",,"11/28/2016 10:35:22 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xab0
+	New Process Name:	C:\Windows\System32\LogonUI.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x190
+	Process Command Line:	""LogonUI.exe"" /flags:0x0
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0xab0","C:\Windows\System32\LogonUI.exe","%%1936","0x190","""LogonUI.exe"" /flags:0x0","4688","1",,"0","13312","0","-9214364837600034816","1051728","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","3580","home-dc1.home.local",,"11/28/2016 10:34:43 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x1294
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x1294","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051694","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","5716","home-dc1.home.local",,"11/28/2016 10:32:41 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xd2c
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0xd2c","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051669","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4764","home-dc1.home.local",,"11/28/2016 10:31:01 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xb4c
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0xb4c","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051641","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","2004","home-dc1.home.local",,"11/28/2016 10:29:20 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xc60
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0xc60","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051606","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4360","home-dc1.home.local",,"11/28/2016 10:28:08 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xff0
+	New Process Name:	C:\Windows\System32\wbem\WmiPrvSE.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wbem\wmiprvse.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0xff0","C:\Windows\System32\wbem\WmiPrvSE.exe","%%1936","0x25c","C:\windows\system32\wbem\wmiprvse.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051597","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","2416","home-dc1.home.local",,"11/28/2016 10:27:25 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x1554
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x1554","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051551","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","3296","home-dc1.home.local",,"11/28/2016 10:24:41 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x98c
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x98c","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051517","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","5716","home-dc1.home.local",,"11/28/2016 10:23:42 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x1024
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0x1024","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051498","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","2004","home-dc1.home.local",,"11/28/2016 10:22:35 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		HOME-DC1$
+	Account Domain:		HOME
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xb04
+	New Process Name:	C:\Windows\System32\wsmprovhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x25c
+	Process Command Line:	C:\windows\system32\wsmprovhost.exe -Embedding
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","S-1-5-18","HOME-DC1$","HOME","0x3e7","0xb04","C:\Windows\System32\wsmprovhost.exe","%%1936","0x25c","C:\windows\system32\wsmprovhost.exe -Embedding","4688","1",,"0","13312","0","-9214364837600034816","1051475","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","2004","home-dc1.home.local",,"11/28/2016 10:20:22 PM",,,"security","","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","Audit Success","System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty","home-dc1","9c45b601-50e2-49ea-a32d-46b994d86b95","True"
